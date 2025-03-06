@@ -12,7 +12,7 @@ public class Baraja {
    public Baraja() {
         //crea una baraja ordenada por palos y números
         int ultimaCarta=0;
-        for (Palo p:Palo.values()) {
+        for (Palo p: Palo.values()) {
             for (int j = 0; j < 12; j++) {
                 if((j==7 || j==8)){
                     continue;

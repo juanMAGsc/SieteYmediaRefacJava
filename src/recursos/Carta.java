@@ -1,5 +1,5 @@
-
 package recursos;
+
 public class Carta {
 
     private Palo palo;
